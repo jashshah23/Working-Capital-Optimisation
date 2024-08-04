@@ -40,11 +40,56 @@ This project aims to optimize working capital by leveraging historical financial
 
     ├── predictive_modeling.ipynb
 
-   ├── visualization.ipynb
+    ├── visualization.ipynb
 
+├── looker studio (Dashboard)
+
+    ├── Cash Flow
+    
+    ├── DPO 
+
+    ├── DSP
+
+    ├── Inventory 
+    
 ├── README.md
 
 ├── requirements.txt
+
+
+## Requiremmets
+
+
+To run this project, you will need to install the following dependencies:
+
+Python 3.x - The main programming language used for this project.
+pip - The package installer for Python.
+The required Python packages are listed below and can be installed using pip install -r requirements.txt.
+
+## Python Packages
+
+`pandas` - For data manipulation and analysis.
+
+`numpy` - For numerical computations.
+
+`matplotlib` - For data visualization.
+
+`seaborn` - For statistical data visualization.
+
+`scikit-learn` - For machine learning models and evaluation.
+
+`Mysql` - For SQL database interaction.
+
+`mysql-connector-python` - For connecting to MySQL databases.
+
+`statsmodels` - For statistical modeling.
+
+`jupyter` - For running Jupyter notebooks.
+
+`notebook`- To run and manage Jupyter notebooks.
+
+`looker-sdk` - For integrating with Looker Studio.
+
 
 
 ## Setup Instructions
@@ -91,6 +136,7 @@ Predictive models are developed to forecast key metrics using regression techniq
 Interactive dashboards and visualizations are created using Looker Studio to present key metrics and insights. Visualizations include:
 - Bar charts and line charts for DSO, DPO, Inventory Turnover, and Cash Flow trends.
 - Heatmaps for identifying patterns and outliers.
+
 
 ---
 
